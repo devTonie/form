@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+:root {
+    --color-primary: #235ad1;
+}
+#quote-box {
+    width: 34rem;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    padding: 2rem;
+}
+
+#text {
+    font-family: 'Dancing Script';
+    color: #1313b9;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#author { 
+    font-family: 'Dancing Script';
+    color: #1313b9;
+    font-size: small;
+    font-weight: 400;
+    float: right;
+}
+
+#new-quote {
+    position: relative;
+    float: right;
+    width: fit-content;
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+}
+
+#new-quote:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#tweet-quote {
+    position: relative;
+    left: 2rem;
+    bottom: 1rem;
+    top: 0.2rem;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    width: fit-content;
+}
+
+#tweet-quote:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
